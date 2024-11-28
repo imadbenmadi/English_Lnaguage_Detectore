@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap-image/1.1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap-image/1.1 http://www.sitemaps.org/schemas/sitemap-image/1.1/sitemap-image.xsd"
+    xmlns:video="http://www.google.com/schemas/sitemap-video"
+    xmlns:image="http://www.google.com/schemas/sitemap-image">
+
+    <url>
+        <loc>https://www.example.com/</loc>
+        <lastmod>2024-10-26</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://www.example.com/about</loc>
+        <lastmod>2024-10-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://www.example.com/contact</loc>
+        <lastmod>2024-10-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://www.example.com/support</loc>
+        <lastmod>2024-10-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://www.example.com/documentation</loc>
+        <lastmod>2024-10-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://www.example.com/dashboard</loc>
+        <lastmod>2024-10-26</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://www.example.com/login</loc>
+        <lastmod>2024-10-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://www.example.com/register</loc>
+        <lastmod>2024-10-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <url>
+        <loc>https://www.example.com/user/profile</loc>
+        <lastmod>2024-10-26</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://www.example.com/user/settings</loc>
+        <lastmod>2024-10-26</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://www.example.com/posts</loc>
+        <lastmod>2024-10-26</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://www.example.com/posts/123</loc>
+        <lastmod>2024-10-26</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <!-- Image sitemap for SEO -->
+    <url>
+        <loc>https://www.example.com/images/dashboard.jpg</loc>
+        <image:image>
+            <image:loc>https://www.example.com/images/dashboard.jpg</image:loc>
+            <image:title>Dashboard Overview</image:title>
+            <image:caption>An overview of the dashboard.</image:caption>
+        </image:image>
+    </url>
+
+    <url>
+        <loc>https://www.example.com/images/auth/login.jpg</loc>
+        <image:image>
+            <image:loc>https://www.example.com/images/auth/login.jpg</image:loc>
+            <image:title>Login Page</image:title>
+            <image:caption>The login page for users.</image:caption>
+        </image:image>
+    </url>
+
+    <!-- Video sitemap for SEO -->
+    <url>
+        <loc>https://www.example.com/videos/tutorial</loc>
+        <video:video>
+            <video:content_loc>https://www.example.com/videos/tutorial.mp4</video:content_loc>
+            <video:title>Tutorial on Using the Dashboard</video:title>
+            <video:description>A comprehensive tutorial on how to use the dashboard features.</video:description>
+            <video:thumbnail_loc>https://www.example.com/images/thumbnails/tutorial.jpg</video:thumbnail_loc>
+            <video:duration>600</video:duration>
+            <video:expiration_date>2024-12-31</video:expiration_date>
+            <video:publication_date>2024-10-26</video:publication_date>
+        </video:video>
+    </url>
+
+    <url>
+        <loc>https://www.example.com/videos/introduction</loc>
+        <video:video>
+            <video:content_loc>https://www.example.com/videos/introduction.mp4</video:content_loc>
+            <video:title>Introduction to Our Platform</video:title>
+            <video:description>Learn about the features and benefits of our platform.</video:description>
+            <video:thumbnail_loc>https://www.example.com/images/thumbnails/introduction.jpg</video:thumbnail_loc>
+            <video:duration>300</video:duration>
+            <video:expiration_date>2024-12-31</video:expiration_date>
+            <video:publication_date>2024-10-26</video:publication_date>
+        </video:video>
+    </url>
+
+    <!-- Additional URLs can be added here -->
+
+</urlset>

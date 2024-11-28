@@ -1,0 +1,78 @@
+/app
+├── config/
+│   ├── db.conf.js                  # MySQL database configuration
+│   ├── app.conf.js                 # Application settings
+│   ├── app.keys.js                 # Keys used for encryption or signing
+│   ├── db.keys.js                  # Database access keys
+│   ├── init.js                     # Initialization file for config loading
+├── database/
+│   ├── Redis.database.js           # Redis database connection
+│   ├── Mysql.database.js           # MySQL database connection
+│   ├── init.js                     # Database initialization
+├── routes/
+│   ├── App.routes.js               # Main route initialization
+│   ├── Auth.routes.js              # Authentication routes
+│   ├── Dashboard.routes.js         # Dashboard-related routes
+│   ├── User.routes.js              # User management routes
+├── utils/
+│   ├── Logger.util.js              # Utility for logging events
+│   ├── Validator.util.js           # Utility for input validation
+├── middleware/
+│   ├── App.middleware.js           # Basic middleware for request handling
+│   ├── ErrorHandler.middleware.js  # Global error handling
+│   ├── Auth.middleware.js          # Authentication handling middleware
+│   ├── init.js                     # Middleware initialization
+├── models/
+│   ├── User.model.js               # User model
+│   ├── Post.model.js               # Post model for blog or social posts
+├── controllers/
+│   ├── App.controller.js           # General application controllers
+│   ├── User.controller.js          # User-related controllers
+│   ├── Post.controller.js          # Post-related controllers
+├── services/
+│   ├── AuthService.js              # Authentication-related services
+│   ├── UserService.js              # User-specific business logic
+│   ├── PostService.js              # Post-specific business logic
+├── repositories/
+│   ├── UserRepository.js           # Repository for user data handling
+│   ├── PostRepository.js           # Repository for post data handling
+├── events/
+│   ├── UserEvents.js               # Events related to user actions
+│   ├── NotificationEvents.js       # Events for notification handling
+├── jobs/
+│   ├── CleanUpJob.js               # Job to clean up data
+│   ├── ReportGenerationJob.js      # Job to generate reports
+├── helpers/
+│   ├── App.helper.js               # General helper functions
+│   ├── Format.helper.js            # Helper functions for data formatting
+├── views/
+│   ├── layouts/
+│   │   ├── main-layout.ejs         # Main layout for pages
+│   ├── partials/
+│   │   ├── navbar.ejs              # Navbar partial
+│   ├── support/
+│   │   ├── index.ejs               # Support page view
+│   ├── documentation/
+│   │   ├── index.ejs               # Documentation main view
+│   ├── index.ejs                   # Main index view
+│   ├── about.ejs                   # About page view
+│   ├── contact.ejs                 # Contact page view
+/public
+├── dist/                           # Distributed files (bundled JS/CSS)
+├── images/
+│   ├── dashboard/                  # Dashboard-related images
+│   ├── auth/                       # Authentication-related images
+│   ├── documentation/              # Documentation-related images
+├── sitemap.xml                     # Sitemap for SEO
+/samples
+├── .env.sample                     # Sample .env file
+├── db.conf.sample                  # Sample database configuration file
+├── app.conf.sample                 # Sample app configuration file
+├── app.keys.sample                 # Sample app keys file
+/src
+├── javascript/                     # Custom JavaScript files
+├── css/                            # Custom CSS files
+/node_modules
+/server.js                          # Main server file to start application
+/package.json                       # Project dependencies and scripts
+/.env                               # Environment configuration file
